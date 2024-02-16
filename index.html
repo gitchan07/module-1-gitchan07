@@ -4,88 +4,124 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Cat Adopption</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.jpg" />
+    <title>Cat Addopt</title>
   </head>
 
   <body>
-    <div class="topnav">
-      <img src="paw-solid.svg" alt="" />
-      <a class="active" href="#home">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
-    </div>
-    <div class="list-cats">
-      <h1>List of Cats</h1>
-      <div class="cat-1">
-        <img src="cat-1.png" alt="" style="width: 50%" />
+    <!-- Navbar -->
+    <div class="container">
+      <div class="topnav">
+        <img src="images/paw-solid.svg" alt="Italian Trulli" class="icon" />
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="#home">Home</a>
+      </div>
+
+      <!-- List Of Cats -->
+      <h2>List of Cats</h2>
+      <div class="card">
+        <img class="pet" src="images/kucing-1.webp" alt="kucing-1" />
         <div class="container">
-          <h2><b>Gloo</b></h2>
+          <h4><b>Gloo</b></h4>
+          <p>1th 2bln</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="pet" src="images/kucing-2.jpeg" alt="kucing-2" />
+        <div class="container">
+          <h4><b>Creame</b></h4>
+          <p>8bln</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="pet" src="images/kucing-3.webp" alt="kucing-3" />
+        <div class="container">
+          <h4><b>Bubble</b></h4>
           <p>1th</p>
         </div>
       </div>
-
-      <div class="cat-2">
-        <img src="cat-2.webp" alt="" style="width: 50%" />
+      <div class="card">
+        <img class="pet" src="images/kucing-4.jpg" alt="kucing-4" />
         <div class="container">
-          <h2><b>Sepiii</b></h2>
-          <p>1th 3bln</p>
+          <h4><b>Rick</b></h4>
+          <p>1th 7bln</p>
         </div>
       </div>
 
-      <div class="cat-3">
-        <img src="cat-3.avif" alt="" style="width: 50%" />
+      <!-- About -->
+      <div class="card-about">
         <div class="container">
-          <h2><b>Cowboy</b></h2>
-          <p>1th 2bln</p>
+          <h2>About Us</h2>
+          <p>
+            Hi, berikut kucing-kucing lucu yang bisa kalian addopt. Sehat,
+            bersih, menarik dan sangat lucu tentunya. Jika tertarik bisa mengisi
+            form dibawah ini, lalu kami akan menghubungi kalinya dan memberikan
+            detailnya^^
+          </p>
         </div>
       </div>
 
-      <div class="cat-4">
-        <img src="cat-4.jpg" alt="" style="width: 50%" />
-        <div class="container">
-          <h2><b>Cowboy</b></h2>
-          <p>1th 2bln</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="section">
+      <!-- Contact Us -->
       <div class="container">
-        <h1><b>About Us</b></h1>
-        <p>
-          Hi, berikut kucing-kucing lucu yang bisa kalian addopt. Sehat, bersih,
-          menarik dan sangat lucu tentunya. Jika tertarik bisa mengisi form
-          dibawah ini, lalu kami akan menghubungi kalinya dan memberikan
-          detailnya^^
-        </p>
-      </div>
-    </div>
-
-    <div class="contact">
-      <div class="container">
-        <h1><b>Contact</b></h1>
-        <form class="mt-4 grid gap-4 md:grid-cols-2 md:gap-6">
-          <input
-            class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-            id="name"
-            placeholder="Your Name"
-          /><input
-            class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-            id="email"
-            placeholder="Your Email"
-            type="email"
-          /><textarea
-            class="flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:col-span-2"
-            id="message"
-            placeholder="Your Message"
-          ></textarea
-          ><button
-            class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 md:col-start-2"
-            type="submit"
-          >
-            Submit
-          </button>
+        <h2>Contact Us</h2>
+        <form action="action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your name.."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Your last name.."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="usa">Indo</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Write something.."
+                style="height: 200px"
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit" />
+          </div>
         </form>
       </div>
     </div>
