@@ -1,0 +1,119 @@
+.topnav {
+    /* background-color; */
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .topnav img {
+    width: 3%;
+    color: white;
+}
+
+/* content kucing */
+.list-cats {
+    margin-top: 5%;
+}
+
+.list-cats img {
+    display: block;
+    padding-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* List kucing */
+.cat-1 {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+    height: 50%;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .cat-1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .cat-2 {
+    /* Add shadows to create the "card" effect */
+    margin-top: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+    height: 50%;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .cat-2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .cat-3 {
+    /* Add shadows to create the "card" effect */
+    margin-top: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+    height: 50%;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .cat-3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .cat-4 {
+    /* Add shadows to create the "card" effect */
+    margin-top: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+    height: 50%;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .cat-4:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  /* Section */
+  .section {
+    margin-top: 5%;
+    background-color: rgb(192, 179, 179);
+    width: 100%;
+    height: 50%;
+  }
+
+  /* Contact */
+  .contact {
+    margin-top: 8%;
+    width: 100%;
+    height: 50%;
+  }

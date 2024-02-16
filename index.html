@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cat Adopption</title>
+  </head>
+
+  <body>
+    <div class="topnav">
+      <img src="paw-solid.svg" alt="" />
+      <a class="active" href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div>
+    <div class="list-cats">
+      <h1>List of Cats</h1>
+      <div class="cat-1">
+        <img src="cat-1.png" alt="" style="width: 50%" />
+        <div class="container">
+          <h2><b>Gloo</b></h2>
+          <p>1th</p>
+        </div>
+      </div>
+
+      <div class="cat-2">
+        <img src="cat-2.webp" alt="" style="width: 50%" />
+        <div class="container">
+          <h2><b>Sepiii</b></h2>
+          <p>1th 3bln</p>
+        </div>
+      </div>
+
+      <div class="cat-3">
+        <img src="cat-3.avif" alt="" style="width: 50%" />
+        <div class="container">
+          <h2><b>Cowboy</b></h2>
+          <p>1th 2bln</p>
+        </div>
+      </div>
+
+      <div class="cat-4">
+        <img src="cat-4.jpg" alt="" style="width: 50%" />
+        <div class="container">
+          <h2><b>Cowboy</b></h2>
+          <p>1th 2bln</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h1><b>About Us</b></h1>
+        <p>
+          Hi, berikut kucing-kucing lucu yang bisa kalian addopt. Sehat, bersih,
+          menarik dan sangat lucu tentunya. Jika tertarik bisa mengisi form
+          dibawah ini, lalu kami akan menghubungi kalinya dan memberikan
+          detailnya^^
+        </p>
+      </div>
+    </div>
+
+    <div class="contact">
+      <div class="container">
+        <h1><b>Contact</b></h1>
+        <form class="mt-4 grid gap-4 md:grid-cols-2 md:gap-6">
+          <input
+            class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+            id="name"
+            placeholder="Your Name"
+          /><input
+            class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+            id="email"
+            placeholder="Your Email"
+            type="email"
+          /><textarea
+            class="flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:col-span-2"
+            id="message"
+            placeholder="Your Message"
+          ></textarea
+          ><button
+            class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 md:col-start-2"
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
